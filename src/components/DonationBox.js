@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+const DonationForm = require('./DonationForm');
 
 var DonationBox = React.createClass({
   handleDonationSubmit: function (donation) {

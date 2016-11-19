@@ -1,4 +1,5 @@
 import React from 'react';
+const classNames = require('classnames');
 
 var InputError = React.createClass({
   getInitialState: function () {
@@ -21,3 +22,5 @@ var InputError = React.createClass({
   }
 
 });
+
+module.exports = InputError;

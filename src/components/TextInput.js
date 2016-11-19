@@ -1,11 +1,12 @@
 import React from 'react';
+const InputError = require('./InputError');
 
 var TextInput = React.createClass({
   getInitialState: function () {
     // most of these variables have to do with errors
     return({
       isEmpty: true,
-      value: null,
+      value: "",
       valid: false,
       errorMessage: 'Input is invalid',
       errorVisible: false
@@ -91,3 +92,5 @@ var TextInput = React.createClass({
   }
 
 });
+
+module.exports = TextInput;
